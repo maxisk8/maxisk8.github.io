@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body> 
+    <div class="container">
+    <header>    
+        <h1 class="titulo"> TAGASSIST </h1> 
+     </div>
+     <div class="barra-navegacion"> 
+        <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#inicio"> inicio</a></li>
+                <li><a href="#Sobre">Nuestro proyecto</a> </li>
+                <li><a href="#Contacto">Contacto</a></li> 
+                <li><a href="#redes">Redes Sociales</a> </li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    </header>
+    
+   
+
+    
+
+    <section class="Diseño" id="inicio">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="foto1.PNG" class="d-block w-100" >
+              </div>
+
+              <div class="carousel-item">
+                <img src="foto2.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item active">
+                <img src="foto3.jpeg" class="d-block w-100" >
+              </div>
+         
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    <main>
+        <h2>BIENVENIDOS A TAGASSIST</h2>
+
+        <section id="Sobre">
+            <h3>Quienes somos?</h3>
+            <i class="fa-solid fa-question"></i>
+            <p>Somos 4 alumnos de la Escuela E.P.E.T N1 llamados Bonini lucas, Piris da Mota Juan, Olivera Maximo y Szeliga Leonardo. Decidimos hacer este proyecto ya que nos cansamos de las largas filas y el sistema tardio de asistencia con el codigo de barra de la escuela, esta suma de circustancias nos inspiro a crear un nuevo sistema de asistencia NFC con el fin de dejar en el olvido los problemas del actual sistema de asistencia.</section>
+
+        <section>
+
+            <h3>Como trabajamos?</h3> 
+            <i class="fa-solid fa-briefcase"></i>
+            <p>Nos especializamos en el trabajo en equipo pero tambien trabajamos individualmente en el proyecto nos dividimos las tareas equitativamente a la habilidad personal de cada uno y en ciertas tareas donde se complica hacerlo de forma individual lo realizamos como equipo de trabajo gracias a eso podemos agilizar las tareas que realizamos, cada tarea tiene una fecha para ser finalizada y en caso de saber que no llegariamos a terminarla tendremos que pedir mas tiempo para poder terminarla </section>
+
+        <section>
+            <h3>IDEA</h3>
+          
+
+            <i class="fa-solid fa-lightbulb"> </i>
+
+            <p> Este proyecto surgió gracias a el sistema de asistencia de la escuela, Este sistema se basa en una lectura de código de barras para cargar la asistencia a una base de datos, 
+                el problema era la mala administracion del sistema haciendo que se genere largas filas y los alumnos marcarán asistencia tarde aunque llegaron a tiempo</p>
+
+            </section>
+        
+        <section>
+            <h3>Funcionalidad </h3>
+            <i class="fa-solid fa-gears"></i>
+            <p>Utilizamos un arduino 1 que nos proporcionara una plataforma estable y versatil para desarrollar este sismtea NFC.</p>
+        <p> Para la lectura de etiquetas NFC hemos seleccionado el lector RFID NFC PN 532 de 13.56Mhz este lector ofrece una alta compatibilidad con una amplia gama de tarjetas NFC estandar y proporciona un a interfaz sencilla para la comunicacion con el arduino</p>    
+        </section>
+        
+    </main>
+
+
+    <section id="Contacto" class="formulario">
+        <h2>Contacto</h2>
+    
+        <form action="" class="formulario-contenido">
+            <fieldset>
+                <legend>Contáctanos llenando todos los campos</legend>
+            
+                <div class="doble">
+                    <div>
+                        <label for="">Nombre</label>
+                        <input type="text" placeholder="Tu Nombre">    
+                    </div>
+                    
+                    <div>
+                        <label for="">Teléfono</label>
+                        <input type="tel" placeholder="Tu Teléfono">    
+                    </div>
+                </div>
+                
+                <div>
+                    <label for="">Correo</label>
+                    <input type="email" placeholder="Tu Email">    
+                </div>
+                
+                <div>
+                    <label for="">Mensaje</label>
+                    <textarea name="" id="" cols="20" rows="5"></textarea>    
+                </div>
+    
+                <div>
+                    <button>Enviar</button>
+                </div>                
+                
+            </fieldset>
+        </form>
+    </section>
+    
+    
+<footer>
+   
+        <div id="contacto">
+    <div class="Contactame">
+            Redes sociales
+        <li><a class= "instagram" href="https://www.instagram.com/tagassist/" target="_blank" title="Instagram"> <i class="fab fa-instagram"></i> Instagram </a></li>
+            
+        <li><a class= "x" href="https://x.com/tagassist" target="_blank" title="X"> <i class=""></i> X ExTwitter </a> </li>  
+        </div>
+       
+</footer>
+</div>
+    <script src="sscripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
